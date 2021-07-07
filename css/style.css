@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    list-style: none;
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section .AccederButton {
+    border-radius: 3px;
+    background-color: #1973e8;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    
+    
+}
+nav .nav-right-section .AccederButton a{
+    
+    color: white;
+    padding-left: 25px;
+    
+}
+
+main {
+    margin-top: 15px;
+    text-align: center;
+}
+
+main .GoogleLogo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .GoogleLogo img {
+    width: 250px;
+}
+
+main .mainInput {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .mainInputContainer {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .mainInputContainer input {
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 40px;
+}
+
+main .mainInputContainer:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfc1e500;
+}
+
+main .mainInput .SearchIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;    
+}
+
+main .mainInput .microphoneIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .GoogleButtons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .GoogleButtons div {
+    display: inline;
+}
+
+main .GoogleButtons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+
+main .GoogleButtons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;   
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    align-items: center;
+    font-size: 13px;
+    
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding-left: 0;
+}
+footer .LeftFooter {
+    
+    justify-self: left;
+}
+
+footer .RightFooter {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
